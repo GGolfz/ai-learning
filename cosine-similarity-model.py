@@ -1,3 +1,4 @@
+from sklearn.metrics.pairwise import cosine_similarity
 class CosineSimilarityModel:
   def __init__(self):
     self.data = []
